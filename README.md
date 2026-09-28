@@ -1,5 +1,7 @@
 # Ombre Brain — Haven/Rain Fork
 
+> **本仓库已停止维护。** 新的记忆库与部署说明请前往 [Serein](https://github.com/Yinglianchun/Serein)。以下内容保留作旧版资料。
+
 Ombre Brain 是一套以 Markdown 记忆桶为长期真源、同时提供 MCP 与聊天 Gateway 的个人连续性系统。
 
 本仓库基于 [P0luz/Ombre-Brain](https://github.com/P0luz/Ombre-Brain) 二次开发。它保留原版的记忆桶、情绪坐标、遗忘曲线、向量检索和 Dashboard，并加入了保守召回、图关系、原文检索、跨窗口 handoff、画像、自我入口、照顾备忘、Darkroom、Dream、自动写入门卫，以及 OpenAI / Anthropic 兼容 Gateway。

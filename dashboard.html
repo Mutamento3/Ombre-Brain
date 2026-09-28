@@ -151,6 +151,21 @@
   }
   .search-bar input::placeholder { color: var(--text-light); }
 
+  .successor-notice {
+    padding: 10px 40px;
+    background: var(--surface-solid);
+    border-bottom: 1px solid var(--border);
+    color: var(--text-dim);
+    font-size: 13px;
+  }
+  .successor-notice a {
+    color: var(--accent);
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  .successor-notice a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
   .tabs {
     display: flex;
     padding: 0 40px;
@@ -2762,6 +2777,7 @@
     }
     .search-bar { margin-left: 0; width: 100%; }
     .search-bar input { width: 100%; }
+    .successor-notice { padding: 10px 16px; }
     .tabs { padding: 0 16px; overflow-x: auto; }
     .content { padding: 20px 16px; }
     .bucket-row {
@@ -2824,6 +2840,10 @@
     <input type="search" id="search-input" name="ombre-memory-query" placeholder="搜索记忆…" autocomplete="off" spellcheck="false" />
   </div>
   <button onclick="doLogout()" title="退出登录" style="background:none;border:1px solid var(--border);color:var(--text-dim);border-radius:20px;padding:7px 14px;font-size:12px;cursor:pointer;">退出</button>
+</div>
+
+<div class="successor-notice" role="note">
+  Ombre Brain 已停止维护，新的记忆库请前往 <a href="https://github.com/Yinglianchun/Serein" target="_blank" rel="noopener noreferrer">Serein →</a>
 </div>
 
 <div class="tabs">
